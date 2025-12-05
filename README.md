@@ -2,7 +2,7 @@
 
 ## Overview
 
-The AI-Powered Article to Image Generator is an end-to-end automated pipeline that transforms written content into professional-grade visual assets. Built for content creators, digital marketers and developers, this system leverages state-of-the-art AI models to generate custom images that perfectly complement article text—eliminating the need for expensive stock photography or manual design work.
+The AI-Powered Article to Image Generator is an end-to-end automated pipeline that transforms written content into professional-grade visual assets. Built for content creators, digital marketers and developers, this system leverages state-of-the-art AI models to generate custom images that perfectly complement article text, eliminating the need for expensive stock photography or manual design work.
 
 ### Key Capabilities
 
@@ -447,4 +447,3 @@ OUTPUT_CONFIG = {
  - Full Article-to-Storyboard Automation.
  - Vision-Language Feedback Loop.
  - Integration With CMS Platforms.
-
