@@ -154,8 +154,7 @@ The system follows a modular, layered architecture designed for maintainability 
 
 The notebook automatically installs all dependencies -
 ```python
-!pip install -q transformers diffusers accelerate safetensors \
-    streamlit pdfplumber python-docx bitsandbytes Pillow pyngrok
+!pip install --quiet transformers diffusers accelerate safetensors sentencepiece streamlit pyngrok==7.0.0 pdfplumber python-docx bitsandbytes Pillow > /dev/null
 ```
 
 ### Manual Installation
@@ -430,6 +429,7 @@ OUTPUT_CONFIG = {
  - Full Article-to-Storyboard Automation.
  - Vision-Language Feedback Loop.
  - Integration With CMS Platforms.
+
 
 
 
