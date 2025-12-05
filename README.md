@@ -46,7 +46,7 @@ Output - "Modern city with solar panels, sustainable architecture, urban skyline
 
 **Scalable Generation Pipeline**
 - Process entire articles with multiple sections.
-- Generate 1-100+ images per session.
+- Generate 1 to 100+ images per session.
 - Automatic folder structure creation.
 - Timestamp-based file naming with collision handling.
 - Google Drive integration for persistent storage.
@@ -128,16 +128,16 @@ The system follows a modular, layered architecture designed for maintainability 
 
 ### Prerequisites
 
-- Google account (for Colab and Drive)
-- Ngrok account (https://ngrok.com) (free tier)
-- Stable internet connection
+- Google account (for Colab and Drive).
+- Ngrok account (https://ngrok.com) (free tier).
+- Stable internet connection.
 
 ### Launch in 3 Steps
 
 1. **Open the Colab Notebook**
-   - Access the `.ipynb` file in this repository
-   - Click "Open in Colab"
-   - Select GPU runtime - **Runtime → Change runtime type → T4 GPU**
+   - Access the `.ipynb` file in this repository.
+   - Click "Open in Colab".
+   - Select GPU runtime - **Runtime → Change runtime type → T4 GPU**.
 
 2. **Configure Ngrok**
    ```python
@@ -145,8 +145,8 @@ The system follows a modular, layered architecture designed for maintainability 
    ```
 
 3. **Run All Cells**
-   - The notebook handles all setup automatically
-   - Access your app at the generated Ngrok URL
+   - The notebook handles all setup automatically.
+   - Access your app at the generated Ngrok URL.
 
 ## Installation
 
@@ -177,7 +177,7 @@ Models are automatically downloaded on first run (~20 GB total) -
 | `runwayml/stable-diffusion-v1-5` | 4.27 GB | Fallback model |
 | `google/flan-t5-base` | 892 MB | Text summarization |
 
-**Storage Requirements** - 25 GB free space recommended
+**Storage Requirements** - 25 GB free space recommended.
 
 ## Usage
 
@@ -430,6 +430,7 @@ OUTPUT_CONFIG = {
  - Full Article-to-Storyboard Automation.
  - Vision-Language Feedback Loop.
  - Integration With CMS Platforms.
+
 
 
 
