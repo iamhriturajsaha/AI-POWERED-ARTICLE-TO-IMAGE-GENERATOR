@@ -354,7 +354,7 @@ OUTPUT_CONFIG = {
 
 ## Troubleshooting
 
-#### CUDA Out of Memory
+#### a) CUDA Out of Memory
 
 **Symptoms** - `RuntimeError - CUDA out of memory`.
 
@@ -368,7 +368,7 @@ OUTPUT_CONFIG = {
 4. Switch to SDXL-Turbo or SD 1.5.
 5. Restart notebook to clear VRAM.
 
-#### Ngrok Tunnel Not Starting
+#### b) Ngrok Tunnel Not Starting
 
 **Symptoms** - No public URL generated.
 
@@ -381,7 +381,7 @@ OUTPUT_CONFIG = {
 3. Ensure no firewall blocking port 8501.
 4. Try restarting the Colab runtime.
 
-#### Low-Quality or Abstract Images
+#### c) Low-Quality or Abstract Images
 
 **Symptoms** - Images don't match prompts or look distorted.
 
@@ -392,7 +392,7 @@ OUTPUT_CONFIG = {
 4. Add negative prompts - "blurry, distorted, low quality".
 5. Ensure you're using SDXL (not Turbo) for quality.
 
-#### Slow Generation Speed
+#### d) Slow Generation Speed
 
 **Symptoms** - Each image takes >30 seconds.
 
@@ -403,7 +403,7 @@ OUTPUT_CONFIG = {
 4. Reduce resolution.
 5. Consider using a higher-tier Colab subscription (A100 GPU).
 
-#### Model Download Failures
+#### e) Model Download Failures
 
 **Symptoms** - `OSError - Can't load model`.
 
@@ -429,17 +429,3 @@ OUTPUT_CONFIG = {
  - Full Article-to-Storyboard Automation.
  - Vision-Language Feedback Loop.
  - Integration With CMS Platforms.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
